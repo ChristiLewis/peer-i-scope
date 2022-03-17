@@ -1,0 +1,25 @@
+{
+  "name": "peer-i-scope",
+  "version": "1.0.0",
+  "description": "A managing tool to review and analyze team data to make course corrections.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristiLewis/peer-i-scope.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristiLewis/peer-i-scope/issues"
+  },
+  "homepage": "https://github.com/ChristiLewis/peer-i-scope#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.1",
+    "mysql2": "^2.3.3"
+  }
+}
