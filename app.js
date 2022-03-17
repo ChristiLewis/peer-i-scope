@@ -1,4 +1,6 @@
 var inquirer = require('inquirer');
+// get the client
+const mysql = require('mysql2');
 
 
 

@@ -1,0 +1,22 @@
+/* DATABASE TABLE */
+CREATE TABLE department (
+    id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    dept_name VARCHAR(30) NOT NULL
+);
+
+/* JOB ROLE TABLE */
+CREATE TABLE job_role (
+    id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(30) NOT NULL,
+    salary DECIMAL(000000.00) NOT NULL,
+    dept_id INTEGER
+);
+
+/* EMPLOYEE TABLE */
+CREATE TABLE employee (
+    id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL,
+    job_role_id INTEGER,
+    manager_id INTEGER NULL
+);
