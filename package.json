@@ -4,7 +4,8 @@
   "description": "A managing tool to review and analyze team data to make course corrections.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,11 @@
   "homepage": "https://github.com/ChristiLewis/peer-i-scope#readme",
   "dependencies": {
     "console.table": "^0.10.0",
+    "express": "^4.17.3",
     "inquirer": "^8.2.1",
     "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
